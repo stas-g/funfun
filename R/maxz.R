@@ -1,5 +1,5 @@
 #' The \eqn{f(x) = max\{x, 0\}} function
-#' @param x Any numeric/integer object
+#' @param x Any numeric object
 #' @return A maximum of the argument, capped at 0.
 #' @author N. F. Grinberg, \email{ng414@@medsch.cam.ac.uk}
 #' @keywords max
@@ -11,5 +11,5 @@
 #' @export
 
 maxz <- function(x){
-	sapply(x, FUN = function(z) ifelse(z > 0, z, 0))
+  ifelse(x > 0, x, 0)
 }

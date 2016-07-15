@@ -7,7 +7,7 @@
 maxz(x)
 }
 \arguments{
-\item{x}{Any numeric/integer object}
+\item{x}{Any numeric object}
 }
 \value{
 A maximum of the argument, capped at 0.
