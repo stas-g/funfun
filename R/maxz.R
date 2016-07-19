@@ -1,7 +1,7 @@
 #' The \eqn{f(x) = max\{x, 0\}} function
 #' @param x Any numeric object including vectors and matrices
 #' @return Returns argument if it's positive, or 0 otherwise
-#' @author N. F. Grinberg, \email{ng414@@medsch.cam.ac.uk}
+#' @author N. F. Grinberg, \email{ng414@@medschl.cam.ac.uk}
 #' @keywords max
 #' @export
 #' @examples

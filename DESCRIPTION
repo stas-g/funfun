@@ -2,8 +2,8 @@ Package: funfun
 Title: Functions I use on a daily basis
 Version: 0.1
 Date: 2016-07-15
-Author: N. F. Grinberg <ng414@medsch.cam.ac.uk>
-Maintainer: N. F. Grinberg <ng414@medsch.cam.ac.uk>
+Author: N. F. Grinberg <ng414@medschl.cam.ac.uk>
+Maintainer: N. F. Grinberg <ng414@medschl.cam.ac.uk>
 Description: Various utility functions I created for daily R tasks
 Depends:
     R (>= 3.3.1)

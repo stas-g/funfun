@@ -22,7 +22,7 @@ maxz(matrix(-10 : 9, nrow = 4))
 
 }
 \author{
-N. F. Grinberg, \email{ng414@medsch.cam.ac.uk}
+N. F. Grinberg, \email{ng414@medschl.cam.ac.uk}
 }
 \keyword{max}
 
