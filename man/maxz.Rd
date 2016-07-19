@@ -7,10 +7,10 @@
 maxz(x)
 }
 \arguments{
-\item{x}{Any numeric object}
+\item{x}{Any numeric object including vectors and matrices}
 }
 \value{
-A maximum of the argument, capped at 0.
+Returns argument if it's positive, or 0 otherwise
 }
 \description{
 The \eqn{f(x) = max\{x, 0\}} function
@@ -18,6 +18,7 @@ The \eqn{f(x) = max\{x, 0\}} function
 \examples{
 maxz(10)
 maxz(-5 : 5)
+maxz(matrix(-10 : 9, nrow = 4))
 
 }
 \author{
