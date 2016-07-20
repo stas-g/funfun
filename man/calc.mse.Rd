@@ -9,7 +9,7 @@ calc.mse(obs, pred, rsq = FALSE)
 \arguments{
 \item{obs}{Stuff stuff}
 
-\item{pred}{Stuff stuff}
+\item{pred}{Stuff stuff stuff}
 
 \item{rsq}{Stuff stuff}
 }
