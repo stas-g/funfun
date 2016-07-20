@@ -2,7 +2,7 @@
 #' @param obs Stuff stuff
 #' @param pred Stuff stuff stuff
 #' @param rsq Stuff stuff stuff
-#' @return mse or R^2
+#' @return mse or R^2 and stuff
 #' @author N. F. Grinberg, \email{ng414@medschl.cam.ac.uk}
 #' @keywords mse
 #' @export
