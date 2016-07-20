@@ -1,7 +1,7 @@
 #' Calculate mean squared error for a vector of observed and predicted values
 #' @param obs Stuff stuff
 #' @param pred Stuff stuff stuff
-#' @param rsq Stuff stuff
+#' @param rsq Stuff stuff stuff
 #' @return mse or R^2
 #' @author N. F. Grinberg, \email{ng414@medschl.cam.ac.uk}
 #' @keywords mse

@@ -11,7 +11,7 @@ calc.mse(obs, pred, rsq = FALSE)
 
 \item{pred}{Stuff stuff stuff}
 
-\item{rsq}{Stuff stuff}
+\item{rsq}{Stuff stuff stuff}
 }
 \value{
 mse or R^2
