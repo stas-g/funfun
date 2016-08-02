@@ -14,7 +14,7 @@ calc.mse(obs, pred, rsq = FALSE)
 \item{rsq}{Stuff stuff stuff}
 }
 \value{
-mse or R^2
+mse or R^2 and stuff
 }
 \description{
 Calculate mean squared error for a vector of observed and predicted values
