@@ -4,7 +4,6 @@
 #' @param append TRUE if would like to add to file rather than overwrite it or create a new one
 #' @return NULL
 #' @author N. F. Grinberg, \email{ng414@medschl.cam.ac.uk}
-#' @keywords max
 #' @export
 #' @examples
 #' # Write "Start: <time now>" to log_file.txt 
