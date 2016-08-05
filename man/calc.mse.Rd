@@ -2,7 +2,7 @@
 % Please edit documentation in R/calc_mse.R
 \name{calc.mse}
 \alias{calc.mse}
-\title{Calculate mean squared error (MSE) for a vector or a matrix of observed and predicted values}
+\title{Calculate mean squared error (MSE) for vectors or matrices of observed and predicted values}
 \usage{
 calc.mse(obs, pred, rsq = FALSE)
 }
@@ -14,10 +14,10 @@ calc.mse(obs, pred, rsq = FALSE)
 \item{rsq}{Calculate \eqn{R^2} (R-squared) instead of MSE? Defualt FALSE}
 }
 \value{
-MSE or $R^2$ (single value if vectors are passed or a vector of length \code{nrow(obs)} if matrices/df are passed, one value for each obs-pred column pair
+MSE or \eqn{R^2} (single value if vectors are passed or a vector of length \code{nrow(obs)} if matrices/df are passed, one value for each obs-pred column pair
 }
 \description{
-Calculate mean squared error (MSE) for a vector or a matrix of observed and predicted values
+Calculate mean squared error (MSE) for vectors or matrices of observed and predicted values
 }
 \examples{
 mod <- lm(mpg ~ ., data = mtcars)

@@ -1,10 +1,10 @@
-#' Calculate mean squared error (MSE) for a vector or a matrix of observed and predicted values
+#' Calculate mean squared error (MSE) for vectors or matrices of observed and predicted values
 #'
 #' @param obs A vector or a matrix/df (samples in rows, individual variables in columns) of observed values
 #' @param pred A vector or a matrix/df (samples in rows, individual variables in columns) of predicted values
 #' @param rsq Calculate \eqn{R^2} (R-squared) instead of MSE? Defualt FALSE
 #'
-#' @return MSE or $R^2$ (single value if vectors are passed or a vector of length \code{nrow(obs)} if matrices/df are passed, one value for each obs-pred column pair
+#' @return MSE or \eqn{R^2} (single value if vectors are passed or a vector of length \code{nrow(obs)} if matrices/df are passed, one value for each obs-pred column pair
 #' @author N. F. Grinberg, \email{ng414@medschl.cam.ac.uk}
 #' @keywords MSE, Rsq
 #'
