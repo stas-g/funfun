@@ -28,5 +28,4 @@ timed.write('Done', file = 'log_file.txt')
 \author{
 N. F. Grinberg, \email{ng414@medschl.cam.ac.uk}
 }
-\keyword{max}
 

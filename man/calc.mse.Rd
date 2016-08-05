@@ -2,28 +2,32 @@
 % Please edit documentation in R/calc_mse.R
 \name{calc.mse}
 \alias{calc.mse}
-\title{Calculate mean squared error for a vector of observed and predicted values}
+\title{Calculate mean squared error (MSE) for a vector or a matrix of observed and predicted values}
 \usage{
 calc.mse(obs, pred, rsq = FALSE)
 }
 \arguments{
-\item{obs}{Stuff stuff}
+\item{obs}{A vector or a matrix/df (samples in rows, individual variables in columns) of observed values}
 
-\item{pred}{Stuff stuff stuff}
+\item{pred}{A vector or a matrix/df (samples in rows, individual variables in columns) of predicted values}
 
-\item{rsq}{Stuff stuff stuff}
+\item{rsq}{Calculate \eqn{R^2} (R-squared) instead of MSE? Defualt FALSE}
 }
 \value{
-mse or R^2 and stuff
+MSE or $R^2$ (single value if vectors are passed or a vector of length \code{nrow(obs)} if matrices/df are passed, one value for each obs-pred column pair
 }
 \description{
-Calculate mean squared error for a vector of observed and predicted values
+Calculate mean squared error (MSE) for a vector or a matrix of observed and predicted values
 }
 \examples{
+mod <- lm(mpg ~ ., data = mtcars)
+summary(mod)$r.squared
+calc.mse(mtcars$mpg, mod$fitted.values, rsq = TRUE)
 
 }
 \author{
 N. F. Grinberg, \email{ng414@medschl.cam.ac.uk}
 }
-\keyword{mse}
+\keyword{MSE,}
+\keyword{Rsq}
 
