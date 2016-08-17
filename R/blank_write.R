@@ -10,4 +10,6 @@
 #' 
 #' @export
 
-blank.write <- function(file, append = TRUE) write('', file = file, append = append)
+blank.write <- function(file, append = TRUE){
+  write('', file = file, append = append)
+}

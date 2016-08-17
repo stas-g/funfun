@@ -15,4 +15,6 @@
 #' timed.write('Done', file = 'log_file.txt')
 #' @export
 
-timed.write <- function(x, file, append = TRUE)  write(paste0(x, ": " , Sys.time()), file = file, append = append)
+timed.write <- function(x, file, append = TRUE){ 
+  write(paste0(x, ": " , Sys.time()), file = file, append = append)
+}
