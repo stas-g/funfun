@@ -10,6 +10,11 @@ xyplot()
 Adds the y = x plot to a figure currently in device
 }
 \examples{
+plot(rnorm(100), rnorm(100))
+xyplot()
 
+}
+\author{
+N. F. Grinberg, \email{ng414@medschl.cam.ac.uk}
 }
 
