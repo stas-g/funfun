@@ -6,7 +6,7 @@
 #'
 #' @examples
 #' plot(rnorm(100), rnorm(100))
-#' xyplot()
+#' xyline()
 #'
 xyline <- function(){
   if(dev.cur() == 1) stop('No figure!')
