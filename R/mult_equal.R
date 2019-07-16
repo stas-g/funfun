@@ -8,4 +8,4 @@
 #' mult.equal(list(1 : 4, 1 : 4, 3 : 4))
 #' @export
 
-mult.equal <- function(x) all.equal(Reduce(union, x), x[[which.min(lengths(x))]])#
+mult.equal <- function(x) all.equal(Reduce(union, x), x[[which.min(lengths(x))]])
