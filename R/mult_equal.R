@@ -6,6 +6,7 @@
 #' @export
 #' @examples
 #' mult.equal(list(1 : 4, 1 : 4, 3 : 4))
+#' mult.equal(lapply(split(mtcars, mtcars$gear), colnames))
 #' @export
 
 mult.equal <- function(x) all.equal(Reduce(union, x), x[[which.min(lengths(x))]])
