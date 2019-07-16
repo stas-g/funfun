@@ -4,7 +4,6 @@
 #' @return logical TRUE/FALSE
 #' @author N. F. Grinberg, \email{ng414@cam.ac.uk}
 #' @export
-#'
 #' @examples
 #' mult.equal(list(1 : 4, 1 : 4, 3 : 4))
 #' @export
